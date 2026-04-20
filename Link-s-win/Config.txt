@@ -1,0 +1,4 @@
+Config={
+ControlServerIP:101.201.215.0,
+ControlServerPort:6688
+}
