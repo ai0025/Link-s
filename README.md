@@ -61,6 +61,86 @@ Link-S 客户端为绿色软件，无需安装。本仓库为试用版。下载�
 
 **传输中断**  
 支持自动重新开始、支持断点续传
- 
 
+
+
+       
+# Link-S
+Link-S is a peer-to-peer encrypted file transmission system with unlimited transmission speed and no file size limitations. The enterprise version supports private deployment. Adopting AES-CTR + ML-KEM end-to-end encryption technology, it ensures full encryption of files during transmission. Encryption keys are only held by the sender and receiver, and the server is unable to decrypt the data.
+
+It supports four connection modes: Local Direct Connection (L-DC), Wide-area Direct Connection (W-DC), P2P hole-punching direct connection, and cross-network relay transmission (Relay). It meets secure file transfer requirements in various scenarios, including enterprise intranets, server-client communication, and cross-regional collaboration. Overall, it is secure, stable, and high-speed.
+
+# Link-S Trial Client User Guide
+The Link-S client is portable software that requires no installation. This repository provides the trial version. After downloading, simply double-click `LinkrLauncher` to launch the program.
+
+The trial version runs on a public control server, which may cause slight response delays. Due to relevant laws and regulatory requirements, the trial version only supports Local Direct Connection (L-DC). There are no connection restrictions for the enterprise version.
+
+Trial users need to complete simple registration before logging in. Enterprise users will receive accounts assigned by enterprise administrators.
+
+[Link-S Windows Version](https://github.com/ai0025/Link-s/tree/main/Link-s-win)
+
+[Link-S Linux Version](https://github.com/ai0025/Link-s/tree/main/Link-s-linux)
+
+# Function Module Overview
+After logging in successfully, you will enter the main interface, which contains five core functional modules: Discover Files, Share Files, Contacts, Download Management, and Settings.
+
+<img width="1101" height="665" alt="Interface" src="https://github.com/user-attachments/assets/88ee6137-de91-4d93-b49d-61c1854fef56" />
+
+## 1. Share Files
+Share local files for other users to download. Other users must add you as a contact to view your shared files.
+
+### 1.1 Shared Folder
+The default shared folder is the `Share` directory in the working folder. You can set other folders as shared folders via:
+**Settings → Shared Folder Settings** (top-right corner)
+
+### 1.2 Two Sharing Methods
+#### Method 1
+Directly copy the files to be shared into the shared folder.
+
+#### Method 2
+Click the **Add Shared File** button on the interface, select files in the pop-up window, and the selected files will be automatically copied to the shared folder.
+
+<img width="1009" height="659" alt="File Sharing" src="https://github.com/user-attachments/assets/6b8745f9-028d-46bd-87bb-dbb16cd60b7f" />
+
+## 2. Contacts
+Add other logged-in users to your contact list to download files shared by them.
+
+Click the **Add Contact** button, enter the target user ID and addition password (set by the contact), then click **OK**.
+Added contacts will be displayed in your contact list.
+
+## 3. Discover Files
+Browse and download files and folders shared by your contacts.
+
+Click on a contact in the contact list, and the shared file/folder list of this user will be displayed on the right. Click the **Download** button to start downloading.
+
+Real-time download progress is visible. The software supports breakpoint resume, automatic resumption after network interruption, and continuous downloading from breakpoints.
+
+## 4. Download Management
+The top of the main interface displays the number of ongoing download tasks. Click this area to enter the download management page, which has two tabs:
+
+**Downloading**: Displays ongoing download tasks. You can view progress, pause or delete tasks.
+**Completed**: Displays finished downloads. You can open the file directory or delete download records.
+
+<img width="1200" height="834" alt="Download Management" src="https://github.com/user-attachments/assets/e29c2ed4-721b-442b-b446-8e1e53f225d8" />
+
+## 5. Settings
+The settings page allows you to configure contact addition passwords, display nickname, default download path, and shared folders.
+
+# 6. Frequently Asked Questions
+
+**Failed to log in**
+Check your network connection and make sure the server address is correct.
+
+**Unable to find contacts**
+Confirm that the other user has added you as a contact and that both parties are online.
+
+**Download Speed**
+Download speed is affected by network conditions, CPU performance, and disk performance.
+
+Test results:
+- Low-spec environment (2-core CPU + 5400RPM mechanical hard disk): approx. 200 Mbps
+- High-spec environment (16/24-core CPU + SSD): up to 1000 Mbps, nearly reaching the gigabit network upper limit
+
+**Transmission Interruption**
+Automatic reconnection and breakpoint resume transmission are fully supported.
 
