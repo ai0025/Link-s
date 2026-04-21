@@ -4,7 +4,7 @@ Link-S 是一款点对点文件加密传输系统，加密传输不限速，不�
 # Link-s 试用版客户端使用方法
 Link-S 客户端为绿色软件，无需安装。本仓库为试用版。下载后直接双击LinkrLauncher*** 即可运行。试用版使用公共控制服务端，所以响应可能会有些延迟。因为法律法规相关要求，试用版只支持局域网L-DC连接方式，企业版无限制。试用版需要简单注册后登录，企业版由本企业管理员开账号后登录。
 
-[Link-s Windows版本](https://github.com/ai0025/Link-s/tree/main/link-s-win)
+[Link-s Windows版本](https://github.com/ai0025/Link-s/tree/main/Link-s-win)
 
 [Link-s Linux版本](https://github.com/ai0025/Link-s/tree/main/Link-s-linux)
 
