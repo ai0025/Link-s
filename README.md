@@ -64,7 +64,8 @@ Link-S 客户端为绿色软件，无需安装。本仓库为试用版。下载�
 **传输中断**  
 支持自动重新开始、支持断点续传
 
-
+# 7、更多信息请访问官网
+www.link-s.cc
 
        
 # Link-S
@@ -147,3 +148,5 @@ Test results:
 **Transmission Interruption**
 Automatic reconnection and breakpoint resume transmission are fully supported.
 
+# 7. For more information, please visit our official website
+www.link-s.cc
