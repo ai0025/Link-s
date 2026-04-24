@@ -88,21 +88,22 @@ After logging in successfully, you will enter the main interface, which contains
 
 <img width="1101" height="665" alt="Interface" src="https://github.com/user-attachments/assets/88ee6137-de91-4d93-b49d-61c1854fef56" />
 
-## 1. Share Files
-Share local files for other users to download. Other users must add you as a contact to view your shared files.
-
+## 1. File Sharing
+Share local files for other users to download. Other users must add you as a contact first to view your shared files.
 ### 1.1 Shared Folder
-The default shared folder is the `Share` directory in the working folder. You can set other folders as shared folders via:
-**Settings → Shared Folder Settings** (top-right corner)
-
+The default shared folder is the Share directory under the working directory. You can set other folders as shared folders by clicking the second pencil icon on the bottom toolbar.
 ### 1.2 Two Sharing Methods
 #### Method 1
 Directly copy the files to be shared into the shared folder.
-
 #### Method 2
-Click the **Add Shared File** button on the interface, select files in the pop-up window, and the selected files will be automatically copied to the shared folder.
+Click the [+] button on the bottom toolbar, select files in the pop-up window, and the selected files will be automatically copied to the shared folder.
+### 1.3 Share Different Files/Folders with Specific Contacts
+#### Method 1
+Check the files or folders you want to share, click the two-person icon on the bottom toolbar, select target contacts in the pop-up window, and confirm.
+#### Method 2
+Click the two-person icon next to the file item in the list, select target contacts in the pop-up window, and confirm.
 
-<img width="1009" height="659" alt="File Sharing" src="https://github.com/user-attachments/assets/6b8745f9-028d-46bd-87bb-dbb16cd60b7f" />
+<img width="1198" height="828" alt="image" src="https://github.com/user-attachments/assets/df0d313e-ee66-4672-a68e-6f4876338a63" />
 
 ## 2. Contacts
 Add other logged-in users to your contact list to download files shared by them.
