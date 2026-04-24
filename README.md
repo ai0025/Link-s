@@ -23,9 +23,7 @@ Link-S 客户端为绿色软件，无需安装。本仓库为试用版。下载�
 #### 方式一：勾上要分享的文件(夹)，点击下方工具栏上的“双人”图标，在弹出的窗口中勾选目标联系人，然后确定。
 #### 方法二：点击文件列表上的“双人”图标，在弹出的窗口中勾选目标联系人，然后确定。
 
-
-<img width="1009" height="659" alt="700G" src="https://github.com/user-attachments/assets/6b8745f9-028d-46bd-87bb-dbb16cd60b7f" />
-
+<img width="1198" height="828" alt="image" src="https://github.com/user-attachments/assets/df0d313e-ee66-4672-a68e-6f4876338a63" />
 
 # 2、联系人 
 添加当前登录的其他用户到联系人列表中，目的是下载该联系人分享的文件。 
