@@ -1,8 +1,10 @@
 # Link-s
-Link-S 是一款点对点文件加密传输系统，加密传输不限速，不限大小。企业版支持私有化部署。采用AES-CTR+ML-KEM端到端加密技术，确保文件在传输过程中全程加密，密钥只在收发两端，服务器无法解密。支持局域网P2P直连（L-DC）、局域网与公网直连(W-DC)、P2P打洞直连(W-DC)和跨网中继转发连接(Relay)四种连接方式，满足企业内网、服务器与客户端和跨地域协作等多种场景的文件安全传输需求。总体来说安全、稳定、快。
+Link-S 是一款文件分享和点对点加密传输系统，加密传输不限速，不限大小。支持私有化部署。采用AES-CTR+ML-KEM端到端加密技术，确保文件在传输过程中全程加密，密钥只在收发两端，服务器无法解密。支持局域网P2P直连（L-DC）、局域网与公网直连(W-DC)、P2P打洞直连(W-DC)和跨网中继转发连接(Relay)四种连接方式，满足企业内网、服务器与客户端和跨地域协作等多种场景的文件安全传输需求。总体来说安全、稳定、快。
 
 # Link-s 试用版客户端使用方法
-Link-S 客户端为绿色软件，无需安装。本仓库为试用版。下载后直接双击LinkrLauncher*** 即可运行。试用版使用公共控制服务端，所以响应可能会有些延迟。因为法律法规相关要求，试用版只支持局域网L-DC连接方式，企业版无限制。试用版需要简单注册后登录，企业版由本企业管理员开账号后登录。
+Link-S 客户端为绿色软件，无需安装。下载后直接解压，双击LinkrLauncher*** 即可运行。局域网版使用公共控制服务端，所以响应可能会有些延迟。因为法律法规相关要求，该版本只支持局域网L-DC连接方式，企业版无限制。局域网版需要简单注册后登录，企业版由本企业管理员开账号后登录。
+登录成功后，直接进入主界面，主界面包含五个主要功能模块：发现文件、分享文件、联系人、下载管理和设置
+
 
 [Link-s Windows版本](https://github.com/ai0025/Link-s/tree/main/Link-s-win)
 
@@ -69,16 +71,29 @@ www.link-s.cc
 
        
 # Link-S
-Link-S is a peer-to-peer encrypted file transmission system with unlimited transmission speed and no file size limitations. The enterprise version supports private deployment. Adopting AES-CTR + ML-KEM end-to-end encryption technology, it ensures full encryption of files during transmission. Encryption keys are only held by the sender and receiver, and the server is unable to decrypt the data.
+Link-S is a file sharing and peer-to-peer encrypted transmission system that offers unlimited speed and unlimited file size for encrypted transfers. It supports private deployment.
+Using end-to-end encryption based on AES-CTR + ML-KEM, Link-S ensures files are fully encrypted during transmission. Encryption keys exist only on the sender and receiver devices, and cannot be decrypted by the server.
+It supports four connection modes:
+Local area network P2P direct connection (L-DC)
+Local area network & public network direct connection (W-DC)
+P2P hole-punching direct connection (W-DC)
+Cross-network relay forwarding (Relay)
+These cover diverse scenarios including secure file transfer within enterprise intranets, between servers and clients, and for cross-regional collaboration.
+In short: secure, stable, and fast.
 
 It supports four connection modes: Local Direct Connection (L-DC), Wide-area Direct Connection (W-DC), P2P hole-punching direct connection, and cross-network relay transmission (Relay). It meets secure file transfer requirements in various scenarios, including enterprise intranets, server-client communication, and cross-regional collaboration. Overall, it is secure, stable, and high-speed.
 
 # Link-S Trial Client User Guide
-The Link-S client is portable software that requires no installation. This repository provides the trial version. After downloading, simply double-click `LinkrLauncher` to launch the program.
-
-The trial version runs on a public control server, which may cause slight response delays. Due to relevant laws and regulatory requirements, the trial version only supports Local Direct Connection (L-DC). There are no connection restrictions for the enterprise version.
-
-Trial users need to complete simple registration before logging in. Enterprise users will receive accounts assigned by enterprise administrators.
+The Link-S client is a portable application that requires no installation. Simply download, extract the archive, and double-click LinkrLauncher*** to launch.
+The LAN edition uses a public control server, which may result in slight response delays. Due to legal and regulatory requirements, this edition only supports the LAN L-DC connection mode, while the enterprise edition has no such restrictions.
+The LAN edition requires simple registration before login.
+The enterprise edition uses accounts created by your enterprise administrator.
+Once logged in, you will enter the main interface, which consists of five core modules:
+Discover Files
+Share Files
+Contacts
+Download Manager
+Settings
 
 [Link-S Windows Version](https://github.com/ai0025/Link-s/tree/main/Link-s-win)
 
