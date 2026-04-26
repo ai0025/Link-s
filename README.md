@@ -15,13 +15,15 @@ Link-S 客户端为绿色软件，无需安装。本仓库为试用版。下载�
 ## 1、分享文件 
 将本机的文件共享出来让其他用户下载。其他用户需先添加你为联系人，才能看到你共享的文件。
 ## 1.1 共享文件夹 
-默认共享文件夹为工作目录的 Share文件夹。支持将其它文件夹设置为共享文件夹，方法为右上角 设置->共享文件夹设置 
+默认共享文件夹为工作目录的 Share文件夹。支持将其它文件夹设置为共享文件夹，方法为点击下方工具栏上第二个铅笔按扭。 
 ## 1.2 分享方式有两种： 
 #### 方式一：将需要分享的文件直接复制到共享文件夹中 
-#### 方式二：点击界面上的【添加分享文件】按钮，在弹出的窗口中选择文件，选择的文件将会复制到共享文件夹中 
+#### 方式二：点击下方工具栏上的【+】按钮，在弹出的窗口中选择文件，选择的文件将会复制到共享文件夹中。
+## 1.3 支持将不同的文件或文件夹分享给不同的联系人
+#### 方式一：勾上要分享的文件(夹)，点击下方工具栏上的“双人”图标，在弹出的窗口中勾选目标联系人，然后确定。
+#### 方法二：点击文件列表上的“双人”图标，在弹出的窗口中勾选目标联系人，然后确定。
 
-<img width="1009" height="659" alt="700G" src="https://github.com/user-attachments/assets/6b8745f9-028d-46bd-87bb-dbb16cd60b7f" />
-
+<img width="1198" height="828" alt="image" src="https://github.com/user-attachments/assets/df0d313e-ee66-4672-a68e-6f4876338a63" />
 
 # 2、联系人 
 添加当前登录的其他用户到联系人列表中，目的是下载该联系人分享的文件。 
@@ -62,7 +64,8 @@ Link-S 客户端为绿色软件，无需安装。本仓库为试用版。下载�
 **传输中断**  
 支持自动重新开始、支持断点续传
 
-
+# 7、更多信息请访问官网
+www.link-s.cc
 
        
 # Link-S
@@ -86,21 +89,22 @@ After logging in successfully, you will enter the main interface, which contains
 
 <img width="1101" height="665" alt="Interface" src="https://github.com/user-attachments/assets/88ee6137-de91-4d93-b49d-61c1854fef56" />
 
-## 1. Share Files
-Share local files for other users to download. Other users must add you as a contact to view your shared files.
-
+## 1. File Sharing
+Share local files for other users to download. Other users must add you as a contact first to view your shared files.
 ### 1.1 Shared Folder
-The default shared folder is the `Share` directory in the working folder. You can set other folders as shared folders via:
-**Settings → Shared Folder Settings** (top-right corner)
-
+The default shared folder is the Share directory under the working directory. You can set other folders as shared folders by clicking the second pencil icon on the bottom toolbar.
 ### 1.2 Two Sharing Methods
 #### Method 1
 Directly copy the files to be shared into the shared folder.
-
 #### Method 2
-Click the **Add Shared File** button on the interface, select files in the pop-up window, and the selected files will be automatically copied to the shared folder.
+Click the [+] button on the bottom toolbar, select files in the pop-up window, and the selected files will be automatically copied to the shared folder.
+### 1.3 Share Different Files/Folders with Specific Contacts
+#### Method 1
+Check the files or folders you want to share, click the two-person icon on the bottom toolbar, select target contacts in the pop-up window, and confirm.
+#### Method 2
+Click the two-person icon next to the file item in the list, select target contacts in the pop-up window, and confirm.
 
-<img width="1009" height="659" alt="File Sharing" src="https://github.com/user-attachments/assets/6b8745f9-028d-46bd-87bb-dbb16cd60b7f" />
+<img width="1198" height="828" alt="image" src="https://github.com/user-attachments/assets/df0d313e-ee66-4672-a68e-6f4876338a63" />
 
 ## 2. Contacts
 Add other logged-in users to your contact list to download files shared by them.
@@ -144,3 +148,5 @@ Test results:
 **Transmission Interruption**
 Automatic reconnection and breakpoint resume transmission are fully supported.
 
+# 7. For more information, please visit our official website
+www.link-s.cc
